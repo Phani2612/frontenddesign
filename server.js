@@ -9,6 +9,7 @@ App.set('Views', './Views');
 
 App.set('view engine' , "ejs")
 
+App.use('/Views' , Express.static('Views'))
 
 App.get('' , function(req,res)
 {
