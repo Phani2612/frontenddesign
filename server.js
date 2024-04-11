@@ -5,7 +5,7 @@ const App = Express()
 
 App.use('/styles' , Express.static('styles'))
 
-App.set('Views', './Views');
+App.set('views', './Views');
 
 App.set('view engine' , "ejs")
 
